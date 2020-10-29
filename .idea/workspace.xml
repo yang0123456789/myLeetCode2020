@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a3aa0d0-2189-4726-ab40-db459844d89a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/企业面试题/nc105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/企业面试题/nc4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +290,7 @@
       <workItem from="1601171409787" duration="9139000" />
       <workItem from="1603801385428" duration="9248000" />
       <workItem from="1603984393243" duration="2000" />
-      <workItem from="1603987533031" duration="1631000" />
+      <workItem from="1603987533031" duration="2528000" />
     </task>
     <servers />
   </component>
