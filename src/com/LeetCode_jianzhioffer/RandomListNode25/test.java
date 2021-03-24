@@ -1,4 +1,4 @@
-package com.LeetCode_jianzhioffer.RandomListNode;
+package com.LeetCode_jianzhioffer.RandomListNode25;
 
 /**
  * # @author  chilcyWind

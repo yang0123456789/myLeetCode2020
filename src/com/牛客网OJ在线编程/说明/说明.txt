@@ -1,0 +1,11 @@
+oj的java输入hasNext和hasNextLine区别：https://www.nowcoder.com/discuss/8050
+
+7 15 9 5
+当处理完5后，没有非空字符了，hasNext返回了false，但是在linux系统中，5后面还有一个换行符\n，0X0A（有兴趣的同学可以自己创建然后用二进制方式看一下文件）
+所以 hasNextLine会返回true，但是其实后面并没有可以读的元素了，从而下面的in.nextInt会抛异常。
+说的不全对，我用前面用in.hasNext()，后面用in.nextLine()也是可以的，最好的方法是避免使用in.hasNextLine()
+
+https://www.nowcoder.com/activity/oj
+
+题目联系地址
+https://www.nowcoder.com/test/question/93bc96f6d19f4795a4b893ee16e97654?pid=27976983&tid=42168683

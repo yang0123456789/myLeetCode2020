@@ -11,6 +11,7 @@ package com.JAVA并发编程的艺术.notifyTest;
 public class Test{
     public static void main(String[] args) {
         // 仓库对象
+        //只要一个仓库
         AbstractStorage abstractStorage = new Storage1();
 
         // 生产者对象

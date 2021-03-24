@@ -17,7 +17,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNextLine()) {
             String a = sc.nextLine();
-            String[] as = a.trim().split(",");
+            String[] as=a.split(",");
+            String[] as2 = a.trim().split(",");
             Arrays.sort(as);
             for (int i = 0; i < as.length; i++) {
                 System.out.print(as[i] + ' ');

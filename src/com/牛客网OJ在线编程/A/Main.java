@@ -19,4 +19,13 @@ public class Main {
             in.nextLine();
         }
     }
+
+    public static void main2(String[] args) {
+        Scanner in = new Scanner(System.in);
+        while(in.hasNext()){
+            int x=in.nextInt();
+            int y=in.nextInt();
+            System.out.println(x + y);
+        }
+    }
 }

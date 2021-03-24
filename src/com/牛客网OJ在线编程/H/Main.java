@@ -6,6 +6,7 @@ package com.牛客网OJ在线编程.H;
  * # @version 1.0
  * # @File : Main.java
  * # @Software: IntelliJ IDEA
+ * https://ac.nowcoder.com/acm/contest/5657/H
  */
 import java.util.Arrays;
 import java.util.Scanner;
@@ -19,9 +20,7 @@ public class Main {
             String a=sc.nextLine();
             String[] as=a.trim().split(" ");
             Arrays.sort(as);
-           for(int i=0;i<as.length ;i++){
-               System.out.print(as[i] + ' ');
-           }
+            System.out.println(String.join(" ",as));
         }
 
     }
